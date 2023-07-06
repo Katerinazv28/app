@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+  <meta charset="UTF-8">
+  <title>Html Screen Uznavaka</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=PT+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+<main class="app scrollview">
+  <header class="appbar appbar--hero">
+    <div class="statusbar"><a href="#"><img src="img/StatusBar.png" width="358"/></a> </div>
+    <div class="appbar__controls-right">
+      <a href="#"><img src="img/mingcute_question-line.png" width="32"/></a>
+    </div>
+    <div class="scanbutton"><a href="#"><img src="img/button-scan.png" width="128"/></a></div>
+  </header>
+  
+  <section class="content backdrop">
+    <div class="list">
+      <div class="search">
+        <div class="search-input">
+          <form method="get" action="/search_dark" id="search_dark">
+            <input name="q" type="text" size="30"
+              placeholder="Найти скульптуру..." />
+          </form>
+        </div>
+      </div>
+
+      <a class="list__item">
+        <div class="list__details">
+          <img src="img/arrow.png" width="26" class="arrow"/>
+          <h2>Поблизости</h2>
+          <div class="list__item-footer bglime font-black">
+            <figure><img src="img/poblizosti2.png" width="152" title="Памятник П.М. Третьякову"/><figcaption>Памятник П.М. Третьякову</figcaption></figure>
+            <figure><img src="img/poblizosti1.png" width="152"title="Стрелецкие палаты"/><figcaption></figcaption>Стрелецкие<br> палаты </figure>
+            <figure><img src="img/poblizosti3.png" width="152"title="Памятник П.М. Третьякову"/><figcaption>Памятник П.М. Третьякову</figcaption></figure>
+          </div>
+        </div>
+
+      </a>
+      <a class="list__item">
+        <div class="list__details">
+          <h2>Интересное</h2>
+          <div class="list__item-footer">
+            <img src="img/interesnoe.png" width="107"/>
+            <img src="img/interesnoe-1.png" width="107"/>
+            <img src="img/interesnoe-2.png" width="107"/>
+            <img src="img/interesnoe-3.png" width="107"/>
+            <img src="img/interesnoe-4.png" width="107"/>
+            <img src="img/interesnoe-5.png" width="107"/>
+          </div>
+        </div>
+
+      </a>
+      <a class="list__item">
+        <div class="list__details">
+          <h2>Последний поиск</h2>
+          <div class="list__item-footer font-gray">
+            <figure><img src="img/sobor.png" width="100" title="Собор Пресвятой Девы Марии"/><figcaption>Собор Пресвятой Девы Марии</figcaption></figure>
+            <figure><img src="img/corbusier.png" width="100" title="Памятник Ле Корбюзье"/>Памятник <br>Ле Корбюзье</figcaption></figure>
+            <figure><img src="img/kuskovo.png" width="100" title="Усадьба Кусково"/>Усадьба Кусково</figcaption></figure>
+            <figure><img src="img/sobor1.png" width="100" title="Собор Пресвятой Девы Марии"/>Собор Пресвятой Девы Марии</figcaption></figure>
+          </div>
+        </div>
+
+      </a>
+      <a class="list__item">
+        <div class="list__details">
+          <img src="img/arrow.png" width="26" class="arrow"/>
+          <h2>Коллекция</h2>
+          <div class="list__item-footer">
+            <img src="img/Kollekciya.png" width="107"/>
+            <img src="img/Kollekciya-1.png" width="107"/>
+            <img src="img/Kollekciya-2.png" width="107"/>
+            <img src="img/Kollekciya-3.png" width="107"/>
+            <img src="img/Kollekciya-4.png" width="107"/>
+            <img src="img/Kollekciya-5.png" width="107"/>
+          </div>
+        </div>
+
+      </a>
+    </div>
+    
+  </section>
+  <footer>
+      <div class="nav-tabs ">
+        <nav>
+          <a href="#">
+            <img src="img/home.png" width="29" />
+          </a>
+          <a href="#">
+            <img src="img/scan.png" width="39"/>
+          </a>
+          <a href="#">
+            <img src="img/collection.png" width="28"/>
+          </a>
+          <span></span>
+        </nav>
+      </div>
+      <div class="homeindicator">
+        <img src="img/homeindicator.png" width="390"/>
+      </div>
+    </footer>
+  </main>
+
+</body>
+</html>
