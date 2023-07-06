@@ -38,6 +38,7 @@ h1 {
 h2 {
   font-size: 38px;
   font-weight: 400;
+  margin-top: 16px;
 }
 
 body,
@@ -93,14 +94,6 @@ a {
 
 .appbar__controls-left {
   grid-area: controls-left;
-}
-
-.appbar__title {
-  grid-area: title;
-}
-
-.appbar__title-text {
-  font-size: 1.2em;
 }
 
 .appbar__controls-right {
@@ -180,21 +173,12 @@ a {
 }
 
 .list__item-footer {
-  margin-top: 16px;
   display: flex;
   gap: 8px;
   overflow-x: auto;
   width: 390px;
   scrollbar-width: 0;
   padding-right: 26px;
-}
-
-.list__item-footer img {
-  object-fit: contain;
-}
-
-.list__title {
-  margin-bottom: 16px;
 }
 
 .search {
@@ -370,7 +354,6 @@ footer {
 figure {
   margin: 0;
   padding: 0;
-
 }
 
 .bglime {
