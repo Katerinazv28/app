@@ -47,7 +47,6 @@ html {
   height: 100%;
 }
 
-
 body {
   display: flex;
   justify-content: center;
@@ -62,6 +61,10 @@ body {
 
 main {
   position: relative;
+}
+
+a {
+  text-decoration: none;
 }
 
 .app {
@@ -127,7 +130,6 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 390px;
 }
 
 .scanbutton {
@@ -187,6 +189,10 @@ main {
   padding-right: 26px;
 }
 
+.list__item-footer img {
+  object-fit: contain;
+}
+
 .list__title {
   margin-bottom: 16px;
 }
@@ -226,7 +232,7 @@ main {
   justify-content: center;
   height: 72px;
   width: 390px;
-  margin-bottom: -20px;
+  margin-bottom: -10px;
 }
 
 nav {
@@ -357,7 +363,7 @@ footer {
 .arrow {
   display: flex;
   float: right;
-  margin-right: 36px;
+
   margin-top: 20px;
 }
 
